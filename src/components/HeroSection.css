@@ -1,0 +1,31 @@
+/* HeroSection.css */
+/* Update the .hero styles in HeroSection.css */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    width: auto;
+    height: 50vh;
+}

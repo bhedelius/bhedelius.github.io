@@ -1,38 +1,39 @@
+/* App.css */
+* {
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+body {
+    margin: 0;
+    /* Ensure no default margin on body */
+    padding: 0;
+    /* Ensure no default padding on body */
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+}
+
 .App {
-  text-align: center;
+    background: linear-gradient(to bottom, #cfe8ff, white);
+    /* Gradient from #cfe8ff to white */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bold {
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Add a min-height to the app to ensure it grows with content */
+.App {
+    min-height: 100vh;
+    /* Ensure the app takes at least the full viewport height */
+    padding-top: 80px;
+    /* Prevent content from hiding behind the fixed header */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+    padding: 20px;
 }
