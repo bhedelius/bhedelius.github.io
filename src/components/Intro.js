@@ -4,7 +4,6 @@ import './Intro.css'; // Optional: create a CSS file for styling
 const About = () => {
     return (
         <div className="about">
-            <h2>Introduction</h2>
             <p>
                 I am a researcher with an MS in Physics and a BS in Math and Physics from Brigham Young University, where I also minored in Chemistry and Computer Science. My research focuses on using AI to address challenges in chemistry and drug discovery.
             </p>

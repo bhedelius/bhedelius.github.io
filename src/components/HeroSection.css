@@ -29,3 +29,42 @@
     width: auto;
     height: 50vh;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        height: auto; /* Let the content dictate height */
+    }
+
+    .hero h1 {
+        font-size: 36px; /* Smaller font size for mobile */
+    }
+
+    .hero p {
+        font-size: 18px; /* Smaller font size for mobile */
+    }
+
+    .hero-image {
+        height: 30vh; /* Adjust image height */
+        margin-top: 20px; /* Add some space between text and image */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 28px; /* Even smaller for very small screens */
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-content {
+        padding: 15px;
+    }
+
+    .hero-image {
+        height: 25vh;
+    }
+}
