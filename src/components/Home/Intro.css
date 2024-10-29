@@ -1,0 +1,32 @@
+/* Intro.css */
+.intro {
+    padding: 40px;
+    /* Spacing around the section */
+    text-align: center;
+    /* Center the text */
+}
+
+.intro h2 {
+    font-size: 36px;
+    /* Font size for the title */
+    color: #333;
+    /* Dark text color */
+    margin-bottom: 20px;
+    /* Space below the title */
+}
+
+.intro p {
+    font-size: 18px;
+    /* Font size for paragraphs */
+    color: #555;
+    /* Medium gray text color */
+    line-height: 1.6;
+    /* Spacing between lines for readability */
+    margin-bottom: 20px;
+    /* Space below paragraphs */
+}
+
+.intro p:last-child {
+    margin-bottom: 0;
+    /* No bottom margin on the last paragraph */
+}

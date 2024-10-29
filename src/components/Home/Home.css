@@ -1,0 +1,20 @@
+.App {
+    background: linear-gradient(to bottom, #cfe8ff, white);
+    /* Gradient from #cfe8ff to white */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Add a min-height to the app to ensure it grows with content */
+.App {
+    min-height: 100vh;
+    /* Ensure the app takes at least the full viewport height */
+    padding-top: 40px;
+    /* Prevent content from hiding behind the fixed header */
+}
+
+.content {
+    padding: 20px;
+}

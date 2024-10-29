@@ -1,0 +1,19 @@
+/* DoublePendulum.css */
+
+.double-pendulum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phase-space {
+    width: 400px; /* Adjust the width as necessary */
+    height: 400px; /* Adjust the height as necessary */
+    background-color: white; /* White background for phase space */
+    border: 1px solid #ccc; /* Optional border for visual separation */
+}
+
+.pendulum-simulation {
+    /* Any styles for your pendulum simulation can go here */
+}
